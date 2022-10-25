@@ -1,0 +1,51 @@
+{
+  "id": "3722964",
+  "name": "MyIcon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8361810",
+      "name": "统计",
+      "font_class": "tongji",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "19990430",
+      "name": "时长",
+      "font_class": "shichang",
+      "unicode": "e7ed",
+      "unicode_decimal": 59373
+    },
+    {
+      "icon_id": "7542757",
+      "name": "24gf-tags",
+      "font_class": "24gf-tags",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "3427871",
+      "name": "浏览量",
+      "font_class": "icon-",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "23513908",
+      "name": "访客管理",
+      "font_class": "fangkeguanli",
+      "unicode": "e87a",
+      "unicode_decimal": 59514
+    },
+    {
+      "icon_id": "7140587",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    }
+  ]
+}

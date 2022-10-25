@@ -1,1 +1,6 @@
 <%- partial('_page/page', {post: page, index: false}) %>
+
+<% if (theme.waline.enable) { %>
+    <div id="waline"></div>
+    <%- partial('_plugins/waline') %>
+<% } %>

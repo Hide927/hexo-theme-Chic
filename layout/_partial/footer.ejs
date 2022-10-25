@@ -1,5 +1,22 @@
 <footer id="footer" class="footer">
     <div class="copyright">
-        <span>© <%= config.author %> | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+        <span>© <%= config.author %> | <%if (theme.since_year && theme.since_year < date(new Date(), "YYYY")) {%><%- theme.since_year %> - <%}%><%- date(new Date(), "YYYY") %>
+            | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a><br>
+            <% if (theme.visit_counter) { %>
+                <%- partial("../_plugins/site-visitor") %>
+            <% } %>
+            <% if(config.symbols_count_time.total_symbols){ %>
+                &nbsp;<span class="site-count">
+                 <i class="iconfont icon-tongji %>"></i>
+                    <a href="#"><%= symbolsCountTotal(site) %></a>
+                </span>&nbsp;
+            <% } %>
+            <% if(config.symbols_count_time.total_time){ %>
+                <span class="site-count">
+                <i class="iconfont icon-shichang %>"></i>
+                    <a href="#"><%= symbolsTimeTotal(site) %></a>
+                </span>
+            <% } %>
+        </span>
     </div>
 </footer>
