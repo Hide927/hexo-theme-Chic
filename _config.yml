@@ -9,14 +9,14 @@ nav:
   关于: /about
 
 # favicon
-favicon: https://cdn.jsdelivr.net/gh/Hide927/BlogImages@main/img/202210251929294.png
+favicon: https://jihulab.com/Hide927/blogimages/-/raw/main/pictures/202210292149629.png
 
 # Profile
 nickname: WzZH
 
 ### this variable is MarkDown form.
 description: 滔滔不绝很容易，可我只想和你在一个慢下来的世界交谈。
-avatar: https://cdn.jsdelivr.net/gh/Hide927/BlogImages@main/img/202209231557635.jpg
+avatar: https://jihulab.com/Hide927/blogimages/-/raw/main/pictures/202210292140887.png
 
 # main menu navigation
 ## links key words should not be changed.
@@ -71,7 +71,7 @@ post_copyright_enable: true
 post_copyright_author_enable: true
 post_copyright_permalink_enable: true
 post_copyright_license_enable: true
-post_copyright_license_text: 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA-4.0</a> 许可协议。转载请注明出处！
+post_copyright_license_text: 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA-4.0</a> 许可协议。转载请注明出处。
 post_copyright_slogan_enable: false
 post_copyright_slogan_text: Why so serious?
 ## toc
