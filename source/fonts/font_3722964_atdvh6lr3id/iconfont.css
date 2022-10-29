@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3722964 */
-  src: url('iconfont.woff2?t=1666620970209') format('woff2'),
-       url('iconfont.woff?t=1666620970209') format('woff'),
-       url('iconfont.ttf?t=1666620970209') format('truetype');
+  src: url('iconfont.woff2?t=1667034508423') format('woff2'),
+       url('iconfont.woff?t=1667034508423') format('woff'),
+       url('iconfont.ttf?t=1667034508423') format('truetype');
 }
 
 .iconfont {
@@ -13,12 +13,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-tongji:before {
-  content: "\e6c8";
+.icon-time:before {
+  content: "\e65f";
 }
 
-.icon-shichang:before {
-  content: "\e7ed";
+.icon-file-word:before {
+  content: "\e7ba";
+}
+
+.icon-folder:before {
+  content: "\e7d1";
+}
+
+.icon-calendar:before {
+  content: "\e624";
+}
+
+.icon-calendar-check-fill:before {
+  content: "\e6f0";
 }
 
 .icon-24gf-tags:before {

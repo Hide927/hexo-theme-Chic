@@ -6,18 +6,39 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "8361810",
-      "name": "统计",
-      "font_class": "tongji",
-      "unicode": "e6c8",
-      "unicode_decimal": 59080
+      "icon_id": "29950",
+      "name": "time",
+      "font_class": "time",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
     },
     {
-      "icon_id": "19990430",
-      "name": "时长",
-      "font_class": "shichang",
-      "unicode": "e7ed",
-      "unicode_decimal": 59373
+      "icon_id": "4766477",
+      "name": "file-word",
+      "font_class": "file-word",
+      "unicode": "e7ba",
+      "unicode_decimal": 59322
+    },
+    {
+      "icon_id": "4766846",
+      "name": "folder",
+      "font_class": "folder",
+      "unicode": "e7d1",
+      "unicode_decimal": 59345
+    },
+    {
+      "icon_id": "5589012",
+      "name": "calendar",
+      "font_class": "calendar",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "29523129",
+      "name": "calendar-check-fill",
+      "font_class": "calendar-check-fill",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
     },
     {
       "icon_id": "7542757",
