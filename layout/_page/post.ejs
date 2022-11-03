@@ -26,7 +26,7 @@
                     <% } %>
                     <% if(page.categories.length!==0 && theme.post_category_enable){ %>
                         <span class="post-category">
-                            <i class="iconfont icon-folder %>"></i>&nbsp;
+                            <i class="iconfont icon-folder %>"></i>
                             <% page.categories.forEach(item=>{ %>
                                 <a href="<%- url_for(item.path) %>"><%- item.name %></a>
                             <% }) %>
@@ -34,19 +34,19 @@
                     <% } %>
                     <% if(config.symbols_count_time.symbols){ %>
                         <span class="post-count">
-                            <i class="iconfont icon-file-word %>"></i>&nbsp;
+                            <i class="iconfont icon-file-word %>"></i>
                             <a href="#"><%= symbolsCount(post) %></a>
                         </span>
                     <% } %>
                     <% if(config.symbols_count_time.time){ %>
                         <span class="post-count">
-                            <i class="iconfont icon-time %>"></i>&nbsp;
+                            <i class="iconfont icon-time %>"></i>
                             <a href="#"><%= symbolsTime(post) %></a>
                         </span>
                     <% } %>
                     <% if(theme.post_view_counter_enable){ %>
                         <span class="post-view">
-                            <i class="iconfont icon-icon- %>"></i>&nbsp;
+                            <i class="iconfont icon-icon- %>"></i>
                             <a class="busuanzi-value" id="busuanzi_value_page_pv"></a>
                         </span>
                     <% } %>
