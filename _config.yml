@@ -99,6 +99,7 @@ scripts:
     # https://github.com/tscanlin/tocbot
   - https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js
   - /js/codecopy.js
+  - https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js
 
 # plugin functions
 ## Mathjax: Math Formula Support
